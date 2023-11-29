@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "connect_uses",
+  "info": {
+    "singularName": "connect-us",
+    "pluralName": "connect-uses",
+    "displayName": "connect-us"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fullname": {
+      "type": "string",
+      "required": true
+    },
+    "phoneNumber": {
+      "type": "string",
+      "required": true
+    },
+    "isActive": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "our_projects",
+  "info": {
+    "singularName": "our-project",
+    "pluralName": "our-projects",
+    "displayName": "Our-project"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "desc_en": {
+      "type": "text",
+      "required": true
+    },
+    "desc_ru": {
+      "type": "text",
+      "required": true
+    },
+    "desc_uz": {
+      "type": "text",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    },
+    "img": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

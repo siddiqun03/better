@@ -1,0 +1,51 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_uses",
+  "info": {
+    "singularName": "about-us",
+    "pluralName": "about-uses",
+    "displayName": "About-us",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title_en": {
+      "type": "string",
+      "required": true
+    },
+    "title_ru": {
+      "type": "string",
+      "required": true
+    },
+    "title_uz": {
+      "type": "string",
+      "required": true
+    },
+    "desc_en": {
+      "type": "text",
+      "required": true
+    },
+    "desc_ru": {
+      "type": "text",
+      "required": true
+    },
+    "desc_uz": {
+      "type": "string",
+      "required": true
+    },
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "qr_link": {
+      "type": "text"
+    }
+  }
+}
