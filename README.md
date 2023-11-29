@@ -8,8 +8,6 @@ Start your Strapi application with autoReload enabled. [Learn more](https://docs
 
 ```
 npm run develop
-# or
-yarn develop
 ```
 
 ### `start`
@@ -18,8 +16,6 @@ Start your Strapi application with autoReload disabled. [Learn more](https://doc
 
 ```
 npm run start
-# or
-yarn start
 ```
 
 ### `build`
